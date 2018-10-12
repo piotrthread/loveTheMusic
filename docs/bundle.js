@@ -108,6 +108,17 @@ eval("module.exports = __webpack_require__.p + \"b265c04282f678392b8f80f132516bb
 
 /***/ }),
 
+/***/ "./docs/images/bgcurve.png":
+/*!*********************************!*\
+  !*** ./docs/images/bgcurve.png ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"89a91a9ca24aa5a6abbe2b8630237eb8.png\";\n\n//# sourceURL=webpack:///./docs/images/bgcurve.png?");
+
+/***/ }),
+
 /***/ "./docs/images/main-banner.jpg":
 /*!*************************************!*\
   !*** ./docs/images/main-banner.jpg ***!
@@ -159,7 +170,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/c
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".courses-section .title {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  font-size: 15px;\\n  margin-top: 15px;\\n  margin-bottom: 35px; }\\n  .courses-section .title span {\\n    font-size: 25px; }\\n  .courses-section .title hr {\\n    width: 25vw;\\n    border: 1px solid #01fbe0;\\n    margin-top: 10px; }\\n\", \"\"]);\n\n// exports\nexports.locals = {\n\t\"courses-section\": \"courses-section\",\n\t\"title\": \"title\"\n};\n\n//# sourceURL=webpack:///./src/components/courses/Courses.scss?./node_modules/css-loader??ref--5-1!./node_modules/sass-loader/lib/loader.js");
+eval("var escape = __webpack_require__(/*! ../../../node_modules/css-loader/lib/url/escape.js */ \"./node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".courses-section {\\n  background-image: url(\" + escape(__webpack_require__(/*! ../../../docs/images/bgcurve.png */ \"./docs/images/bgcurve.png\")) + \");\\n  background-size: cover;\\n  background-position: -470px;\\n  padding-bottom: 25px; }\\n  .courses-section .title {\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n    font-size: 15px;\\n    margin-top: 15px;\\n    margin-bottom: 35px; }\\n    .courses-section .title span {\\n      font-size: 25px; }\\n    .courses-section .title hr {\\n      width: 25vw;\\n      border: 1px solid #01fbe0;\\n      margin-top: 10px; }\\n\", \"\"]);\n\n// exports\nexports.locals = {\n\t\"courses-section\": \"courses-section\",\n\t\"title\": \"title\"\n};\n\n//# sourceURL=webpack:///./src/components/courses/Courses.scss?./node_modules/css-loader??ref--5-1!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 

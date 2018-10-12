@@ -3,6 +3,11 @@ $secondary-color: #292d2e;
 $text-color: #a4a4a4;
 
 .courses-section{
+    background-image: url("../../../docs/images/bgcurve.png");
+    background-size:cover;
+    background-position: -470px;
+    padding-bottom: 25px;
+
     .title{
         display:flex;
         flex-direction: column;
