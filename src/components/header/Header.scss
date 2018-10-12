@@ -34,6 +34,11 @@ $text-color: #a4a4a4;
         color: white;
         border:2px solid lightgray;
         background-color: rgba(0,0,0,.2);
+
+        &:hover{
+            background-color: $primary-color;
+            border:0;
+        }
     }
 
     .line {

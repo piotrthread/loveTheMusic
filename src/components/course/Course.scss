@@ -1,0 +1,41 @@
+$primary-color: #01fbe0;
+$secondary-color: #292d2e;
+$text-color: #a4a4a4;
+
+.course{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:35px 0;
+
+    img{
+        width:90vw;
+    }
+
+    h1{
+        font-size:15px;
+        color:$secondary-color;
+        margin-top:25px;
+    }
+
+    p{
+        color:$text-color;
+        width:90vw;
+        margin:25px 0;
+        text-align: justify;
+    }
+
+    button{
+        height:50px;
+        width:35vw;
+        border-radius:25px;
+        color: white;
+        background-color: $secondary-color;
+        border:0;
+
+        &:hover{
+            background-color: $primary-color;
+            border:0;
+        }
+    }
+}

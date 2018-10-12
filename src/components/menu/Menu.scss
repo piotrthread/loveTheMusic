@@ -124,6 +124,11 @@ $text-color: #a4a4a4;
         padding:16px;
         text-align: center;
         color: $text-color;
+
+        &:first-child{
+            color: $primary-color;
+        }
+
     }
 }
 
@@ -140,6 +145,10 @@ $text-color: #a4a4a4;
         text-align: center;
         color: $text-color;
         cursor: pointer;
+
+        &:hover{
+            color:$primary-color;
+        }
 
         &:first-child{
             color: $primary-color;
