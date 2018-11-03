@@ -2,7 +2,8 @@
 https://piotrthread.github.io/loveTheMusic/<br/><br/>
 Workshop Project for Coderslab.<br/>
 
-> One Page Mobile Layout with hamburger menu and slider in the team section.<br/>
+> One Page Responsive Layout with hamburger menu and slider in the team section.<br/>
+Desktop & Mobile Version.
 
 Used technologies:<br/>
 * HTML 
