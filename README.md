@@ -10,4 +10,5 @@ Used technologies:<br/>
 * React.js
 * ES2015
 * Webpack
-
+<br/><br/>
+![Screenshot](./images/layout.png)
