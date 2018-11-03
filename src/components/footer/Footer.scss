@@ -30,3 +30,14 @@ $text-color: #a4a4a4;
     }
     
 }
+
+@media only screen and (min-width:1024px) {
+    .footer{
+        .social{
+            width:250px;
+            img{
+                width:50px;
+            }
+        }
+    }
+}

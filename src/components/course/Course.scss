@@ -41,3 +41,18 @@ $text-color: #a4a4a4;
         }
     }
 }
+
+@media only screen and (min-width:1024px) {
+.course{
+    width:320px;
+    img{
+        width:80%;
+    }
+    p{
+        width:80%;
+    }
+    button{
+        width:130px;
+    }
+}
+}

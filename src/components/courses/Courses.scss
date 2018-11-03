@@ -27,3 +27,21 @@ $text-color: #a4a4a4;
         }
     }
 }
+
+@media only screen and (min-width:1024px) {
+    .courses-section{
+        background-image:none;
+        .courses{
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    .coursesContainer{
+        background-image: url("../../../docs/images/bgcurve.png");
+        background-size:cover;
+        background-position: -635px;
+        background-repeat: no-repeat;
+    }
+}

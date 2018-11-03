@@ -85,3 +85,22 @@ $text-color: #a4a4a4;
         }
     }
 }
+
+@media only screen and (min-width:1024px) {
+.contact{
+    padding-top:10px;
+    form{
+        input{
+            width:30vw;
+            height:50px;
+        }
+        textarea{
+            width:30vw;
+            height:20vw;
+        }
+        button{
+            width:150px;
+        }
+    }
+}
+}

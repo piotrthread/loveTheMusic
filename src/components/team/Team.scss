@@ -22,7 +22,26 @@ $text-color: #a4a4a4;
             margin-top:10px;
         }
     }
-    .members{
-        
+    .membersDesktop{
+        display:none;
     }
+}
+
+@media only screen and (min-width:1024px) {
+.teamContainer{
+    background-color: rgba(100,100,100,.05);
+    .container{
+        .team-section{
+            background-color:rgba(1,1,1,0);
+            .members{
+                display:none;
+            }
+            .membersDesktop{
+                display:flex;
+                justify-content: space-around;
+                margin:45px;
+            }
+        }
+    }    
+}
 }

@@ -30,3 +30,16 @@ $text-color: #a4a4a4;
         width:70vw;
     }
 }
+
+@media only screen and (min-width:1024px) {
+.bannerContainer{
+    .container{
+        width:100vw;
+        .banner{
+            h1{
+                font-size:4vw;
+            }
+        }
+    }
+}
+}

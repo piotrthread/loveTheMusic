@@ -67,3 +67,24 @@ $text-color: #a4a4a4;
         }
       }
 }
+
+@media only screen and (min-width:1024px) {
+header{
+    .container{
+        width:100vw;
+        .header{
+            img{
+                width:70vh;
+                margin-top:8vh;
+            }
+            p{
+                width:40vw;
+            }
+            button{
+                width:130px;
+                margin-bottom:7vh;
+            }
+        }
+    }
+}
+}

@@ -4,7 +4,7 @@ import css from './Banner.scss';
 class Banner extends React.Component{
     render(){
         return <React.Fragment>
-            <section>
+            <section className="bannerContainer">
                 <div className="container">
                     <div className="banner">
                         <h1>LOVE THE <span>MUSIC</span></h1>

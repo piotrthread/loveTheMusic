@@ -9,3 +9,10 @@
     width:100vw;
     margin: 0 auto;
 }
+
+@media only screen and (min-width:1024px) { 
+    .container{
+        width:80vw;
+        margin: 0 auto;
+    }
+}

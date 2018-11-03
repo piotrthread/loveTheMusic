@@ -5,7 +5,7 @@ import css from './Courses.scss';
 class Courses extends React.Component{
     render(){
         return <React.Fragment>
-            <section>
+            <section className="coursesContainer">
                 <div className="container">
                     <div className="courses-section">
                         <div className="title">
