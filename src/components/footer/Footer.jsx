@@ -6,8 +6,11 @@ class Footer extends React.Component{
         return <React.Fragment>
             <div className="footer">
                 <div className="social">
-                <p>Adress 24 87-434 Poland</p>
+                    <img src="./images/fb.svg"/>
+                    <img src="./images/in.svg"/>
+                    <img src="./images/tw.svg"/>
                 </div>
+                <p>Copyright: CodersLab and Threadicture.</p>
             </div>
         </React.Fragment>;
     }

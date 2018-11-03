@@ -1,0 +1,32 @@
+$primary-color: #01fbe0;
+$secondary-color: #292d2e;
+$text-color: #a4a4a4;
+
+.footer{
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    .social{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width:40vw;
+        margin:35px;
+        img{
+            width:10vw;
+            cursor: pointer;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    p{
+        color:rgba(255,255,255,.3);
+        margin-bottom:35px;
+        font-size:14px;
+    }
+    
+}
