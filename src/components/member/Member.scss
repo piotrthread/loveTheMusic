@@ -2,30 +2,36 @@ $primary-color: #01fbe0;
 $secondary-color: #292d2e;
 $text-color: #a4a4a4;
 
-.course{
+
+.teamMember{
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin:35px 0;
-
-    img{
-        width:90vw;
+    justify-items: center;
+    
+    .teamImage{
+        width:50vw;
+        height:50vw;
+        border-radius:25vw;
+        overflow: hidden;
+        img{
+            width:50vw;
+            height:50vw;
+        }
     }
-
-    h1{
-        font-size:15px;
+    h2{
+        font-size:25px;
         color:$secondary-color;
         margin-top:25px;
     }
-
     p{
         color:$text-color;
-        width:90vw;
+        width:70vw;
         margin:25px 0;
         text-align: justify;
     }
-
     button{
+        margin-bottom:45px;
         height:50px;
         width:35vw;
         border-radius:25px;
