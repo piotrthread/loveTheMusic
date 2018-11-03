@@ -1,0 +1,25 @@
+$primary-color: #01fbe0;
+$secondary-color: #292d2e;
+$text-color: #a4a4a4;
+
+.team-section{
+
+    .title{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        font-size:15px;
+        margin-top:35px;
+        margin-bottom: 35px;
+
+        span{
+            font-size: 25px;
+        }
+
+        hr{
+            width:25vw;
+            border:1px solid $primary-color;
+            margin-top:10px;
+        }
+    }
+}
